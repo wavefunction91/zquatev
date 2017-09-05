@@ -22,3 +22,9 @@ endif()
 
 add_subdirectory(src)
 add_subdirectory(tests)
+
+
+
+install(FILES ${PROJECT_SOURCE_DIR}/include/f77.h DESTINATION include)
+install(FILES ${PROJECT_SOURCE_DIR}/include/supermat.h DESTINATION include)
+install(FILES ${PROJECT_SOURCE_DIR}/include/zquatev.h DESTINATION include)
