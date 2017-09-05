@@ -8,3 +8,6 @@ endif()
 if( LA_LINK )
   target_link_libraries( zquatev PUBLIC ${LA_LINK})
 endif()
+
+
+install(TARGETS zquatev DESTINATION lib)
